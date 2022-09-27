@@ -2,9 +2,6 @@ import Signup from "./components/Signup";
 import SignupForm from "./components/SignupForm";
 
 
-
-
-
 function App() {
   return (
     <div className="flex m-0 p-0 justify-end">
@@ -12,7 +9,10 @@ function App() {
         <div className="">
           <SignupForm />
         </div>
-        <Signup />
+        <div className="hidden lg:block">
+          <Signup />
+        </div>
+        
       </div>
      </div>
   );

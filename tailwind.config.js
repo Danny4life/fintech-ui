@@ -8,6 +8,8 @@ module.exports = {
       "metal" : "#012A4A",
       "solid" : "#000000",
       "inputColor" : "#C4C4C4",
+      "soft" : "#4361EE",
+      "shine" : "#FFFFFF",
  
     extend: {},
   },
