@@ -1,20 +1,20 @@
-import Signup from "./components/Signup";
-import SignupForm from "./components/SignupForm";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Login from "./components/Login";
+// import Signup from "./components/Signup";
+// import SignupForm from "./components/SignupForm";
 
 
 function App() {
   return (
-    <div className="flex m-0 p-0 justify-end">
-      <div className="flex">
-        <div className="">
-          <SignupForm />
-        </div>
-        <div className="hidden lg:block">
-          <Signup />
-        </div>
-        
-      </div>
-     </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/signUp" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </BrowserRouter>
+    
+    
   );
 }
 

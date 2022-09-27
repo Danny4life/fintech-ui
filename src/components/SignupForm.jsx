@@ -4,6 +4,7 @@ import Icon from "../icons/Icon";
 import IconEmail from "../icons/IconEmail";
 import IconPhone from "../icons/IconPhone";
 import IconClock from "../icons/IconClock";
+import { useNavigate } from "react-router-dom";
 
  
 
@@ -16,6 +17,8 @@ const SignupForm = () => {
     // const [password, setPassword] = useState("");
     // const [confirmPassword, setConfirmPassword] = useState("");
     // const [pin, setPin] = useState("");
+
+    const navigate = useNavigate();
 
     return ( 
         <section className="flex">
@@ -43,7 +46,9 @@ const SignupForm = () => {
                     </div>
                 </div>
                   <div className="mt-12">
-                    <span className="text-solid text-base">Already have an accont? <a href="www">Login</a></span>
+                    <span className="text-solid text-base">Already have an accont? 
+                        <a onClick={() => navigate("/login")} href className="cursor-pointer">Login</a>
+                    </span>
                  </div> 
                
               

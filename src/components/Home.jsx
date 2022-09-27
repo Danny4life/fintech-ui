@@ -1,18 +1,24 @@
-// import Signup from "./components/Signup";
-// import SignupForm from "./components/SignupForm";
+import Signup from "./Signup";
+import SignupForm from "./SignupForm";
 
 
-// const Home = () => {
-//     return ( 
-//         <div className="flex m-0 p-0 justify-end">
-//       <div className="flex">
-//         <div className="">
-//           <SignupForm />
-//         </div>
-//         <Signup />
-//       </div>
-//      </div>
-//      );
-// }
+
+const Home = () => {
+    return ( 
+        <div>
+            <div className="flex m-0 p-0 justify-end">
+        <div className="flex">
+          <div className="">
+            <SignupForm />
+          </div>
+          <div className="hidden lg:block">
+            <Signup />
+          </div>
+          
+        </div>
+       </div>
+        </div>
+     );
+}
  
-// export default Home;
+export default Home;
