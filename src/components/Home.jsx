@@ -1,3 +1,4 @@
+
 import Signup from "./Signup";
 import SignupForm from "./SignupForm";
 
@@ -10,6 +11,7 @@ const Home = () => {
         <div className="flex">
           <div className="">
             <SignupForm />
+            {/* <Login /> */}
           </div>
           <div className="hidden lg:block">
             <Signup />

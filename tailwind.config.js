@@ -10,6 +10,9 @@ module.exports = {
       "inputColor" : "#C4C4C4",
       "soft" : "#4361EE",
       "shine" : "#FFFFFF",
+      "pwd" : "#4285F4;",
+      "bground" : "#E5E5E5",
+      "pwdcol" : "#21334F",
  
     extend: {},
   },
