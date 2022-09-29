@@ -7,8 +7,8 @@ const PasswordReset = () => {
 
     const navigate = useNavigate();
     return ( 
-        <section className="justify-start">
-            <div className="w-1/2 h-96 mx-auto mt-48 bg-bground justify-center flex">
+        <section className="w-screen h-screen bg-bground">
+            <div className="max-w-4xl h-96 mx-auto bg-shine justify-center flex relative top-1/4">
                 <div className="flex flex-col justify-center">
                     <h2 className="text-2xl text-pwdcol font-bold mt-4 leading-10 mx-auto">Forget Password</h2>
                     <p className="text-xs font-normal text-inputColor leading-5 mx-auto">Enter the email associated with your account and we’ll <br /> send an email with 
@@ -30,7 +30,7 @@ const PasswordReset = () => {
                     </div>
                 </div>
                
-            </div>
+            </div> 
         </section>
      );
 }
