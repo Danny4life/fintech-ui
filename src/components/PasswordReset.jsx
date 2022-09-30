@@ -19,12 +19,16 @@ const PasswordReset = () => {
                         <Form className=""  name="Email" placeHolder="Enter your email" type="email" required />
                         <IconEmail className="relative bottom-7 left-4" />
                         <div>
-                            <button className="rounded-md text-shine bg-soft w-96 h-10 mt-0">Reset Password</button>
+                            <button 
+                            onClick={() => navigate("/resetPassword")}
+                            className="rounded-md text-shine bg-soft w-96 h-10 mt-0">Reset Password</button>
                         </div>
                         <div className="flex ml-24">
                             <button
                             onClick={() => navigate("/login")}
-                             className=" text-solid bg-inputColor w-32 h-11 mt-4 text-xs leading-5">Back to Login</button>
+                             className=" text-solid bg-inputColor w-32 h-11 mt-4 text-xs leading-5">
+                                Back to Login
+                            </button>
                         </div>
                         
                     </div>

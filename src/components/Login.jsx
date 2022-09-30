@@ -29,15 +29,8 @@ const Login = () => {
                         Create account
                     </a>
                 </span>
-             </div> 
-           
-          
-        </div>
-        
-       
-
-       
-        
+             </div>   
+        </div>    
     </section>
      );
 }
