@@ -4,13 +4,14 @@ import Icon from "../icons/Icon";
 import IconEmail from "../icons/IconEmail";
 import IconPhone from "../icons/IconPhone";
 import IconClock from "../icons/IconClock";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 
  
 
 const SignupForm = () => {
     
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
   return ( 
         <section className="flex">
@@ -68,7 +69,7 @@ const SignupForm = () => {
                 </div>
                   <div className="mt-12">
                     <span className="text-solid text-base">Already have an accont? 
-                        <a onClick={() => navigate("/login")} href className="cursor-pointer">Login</a>
+                        <Link to="/login" className="cursor-pointer">Login</Link>
                     </span>
                  </div> 
                

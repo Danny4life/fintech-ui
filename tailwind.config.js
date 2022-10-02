@@ -13,6 +13,7 @@ module.exports = {
       "pwd" : "#4285F4;",
       "bground" : "#E5E5E5",
       "pwdcol" : "#21334F",
+      "navcol" : "#F5F5F5",
  
     extend: {},
   },
